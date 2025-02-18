@@ -37,6 +37,7 @@ function SkillList() {
     <div>
       <skill>HTML</skill>
       <skill>JavaScript</skill>
+      <skill>Node.Js</skill>
     </div>
   );
 }
