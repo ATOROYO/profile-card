@@ -15,6 +15,10 @@ function App() {
   );
 }
 
+function Avatar() {
+  return <img src="Atoo PS1 Crop.jpg" alt="Atoo" />;
+}
+
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
