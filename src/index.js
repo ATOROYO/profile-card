@@ -16,7 +16,11 @@ function App() {
 }
 
 function Avatar() {
-  return <img src="Atoo PS1 Crop.jpg" alt="Atoo" />;
+  return <img src="Atoo PS1 Crop.jpg" alt="Atoo" className="avatar " />;
+}
+
+function Intro() {
+  return <h1>David Atoroyo Sika</h1>;
 }
 
 const rootElement = document.getElementById("root");
