@@ -4,9 +4,9 @@ import "./styles.css";
 
 function App() {
   return (
-    <div>
+    <div className="card">
       <Avatar />
-      <div>
+      <div className="card">
         <Intro />
         {/* {skilss goes here} */}
         <SkillList />
@@ -19,7 +19,7 @@ const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 
 root.render(
-  <strictMode>
+  <StrictMode>
     <App />
-  </strictMode>
+  </StrictMode>
 );
