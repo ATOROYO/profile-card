@@ -8,7 +8,18 @@ function App() {
       <Avatar />
       <div>
         <Intro />
+        {/* {skilss goes here} */}
+        <SkillList />
       </div>
     </div>
   );
 }
+
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+root.render(
+  <strictMode>
+    <App />
+  </strictMode>
+);
