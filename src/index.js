@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="card">
       <Avatar />
-      <div className="card">
+      <div className="data">
         <Intro />
         {/* {skilss goes here} */}
         <SkillList />
@@ -20,7 +20,24 @@ function Avatar() {
 }
 
 function Intro() {
-  return <h1>David Atoroyo Sika</h1>;
+  return (
+    <div>
+      <h1>David Atoroyo Sika</h1>
+      <p>
+        I'm a full stack developer I love coding things from scratch. I know
+        some few skills and below are some few of the skills I have and tha I
+        know
+      </p>
+    </div>
+  );
+}
+
+function SkillList() {
+  return (
+    <div>
+      <skill>HTML</skill>
+    </div>
+  );
 }
 
 const rootElement = document.getElementById("root");
