@@ -39,6 +39,8 @@ function SkillList() {
       <skill>JavaScript</skill>
       <skill>Node.Js</skill>
       <skill>React</skill>
+      <skill>Git and GitHub</skill>
+      <skill>Python</skill>
     </div>
   );
 }
