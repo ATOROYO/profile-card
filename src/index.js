@@ -34,13 +34,13 @@ function Intro() {
 
 function SkillList() {
   return (
-    <div>
-      <skill>HTML</skill>
-      <skill>JavaScript</skill>
-      <skill>Node.Js</skill>
-      <skill>React</skill>
-      <skill>Git and GitHub</skill>
-      <skill>Python</skill>
+    <div className="skill-list ">
+      <skill className="skill">HTML</skill>
+      <skill className="skill">JavaScript</skill>
+      <skill className="skill">Node.Js</skill>
+      <skill className="skill">React</skill>
+      <skill className="skill">Git and GitHub</skill>
+      <skill className="skill">Python</skill>
     </div>
   );
 }
