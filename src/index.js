@@ -39,6 +39,8 @@ function SkillList() {
       <Skill skill="HTML+CSS" emoji="💪" color="orange" />
       <Skill skill="JavaScript" emoji="💪" color="yellow" />
       <Skill skill="Svelte" emoji="👶" color="orangered" />
+      <Skill skill="Node.js" emoji="😁" color="green" />
+      <Skill skill="Git and GitHub" emoji="👨🏽‍💻" color="gray" />
     </div>
   );
 }
