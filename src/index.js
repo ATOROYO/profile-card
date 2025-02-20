@@ -25,8 +25,8 @@ function Intro() {
       <h1>David Atoroyo Sika</h1>
       <p>
         I'm a full stack developer I love coding things from scratch. I know
-        some few skills and below are some few of the skills I have and tha I
-        know;
+        some few skills and sme and below are some few of the skills I have and
+        tha I know;
       </p>
     </div>
   );
